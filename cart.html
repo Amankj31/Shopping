@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-commerse site</title>
+
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+    
+
+	<!-- J-Query link -->
+	<script src="js/jquery.js"></script>
+
+	<!-- J-Query CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome link -->
+	<script src="https://kit.fontawesome.com/0db9ce1e8f.js" crossorigin="anonymous"></script>
+	
+
+</head>
+<body>
+    <section id="header">
+        <img class="logo" src="img/logo2.png" alt="" class="logo">
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contect.html">Contect</a></li>
+                <li><a class="active" href="cart.html"><i><i class="fa-solid fa-cart-arrow-down"></i></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cart">
+        <table width="100%">
+            <thead>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Products</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-circle-minus"></i></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Good looking Shirt</td>
+                    <td>1789</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1789</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-circle-minus"></i></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Addidas look Shirt</td>
+                    <td>1599</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1599</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-circle-minus"></i></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Nike king Shirt</td>
+                    <td>1299</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1299</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="subtotal">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <input type="text" placeholder="Apply Your Coupon">
+            <button class="btn">Apply</button>
+        </div>
+
+        <div class="total">
+            <h3> Cart Totals</h3>
+            <table>
+               <tr>
+                <td>Cart Subtotal</td>
+                <td>2899</td>
+               </tr>
+               <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+               </tr>
+               <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>2899</strong></td>
+               </tr>
+            </table>
+            <button class="btn">Proceed To Chackout</button>
+        </div>
+    </section>
+
+
+    <hr>
+
+    <section id="footer">
+        <div class="col-1">
+            <img class="logo" src="img/logo2.png" alt="" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 121, Madhuvan colony, Jaipur</p>
+            <p><strong>Pin Coad:</strong> 308469</p>
+            <p><strong>Phone:</strong> (+91)0189643756</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-1">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Trem & Condition</a>
+            <a href="#">Contact uS</a>
+        </div>
+
+        <div class="col-1">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">Whishlist</a>
+            <a href="#">Treack my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col-1 install">
+            <h4>Install App</h4>
+            <p>Download app from App store or Google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Getway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copy">
+            <p>@2022, aman program - make E-commerse Website</p>
+        </div>
+    </section>
+
+
+    <!-- JAVA Script File -->
+   <script src="main.js">
+
+   </script>
+   
+</body>
+</html>
